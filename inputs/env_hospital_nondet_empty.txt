@@ -1,0 +1,10 @@
+#env_type:'hospital_nondet'
+#s_dims:[104, 193]
+#num_action:5
+#stay_action:4
+#k_dims:[3, 3]
+#obs_len:4
+#max_obs:1
+#class_directions:[[1, 0], [-1, 0], [0, 1], [0, -1]]
+#max_feature:1
+#num_obs:17
