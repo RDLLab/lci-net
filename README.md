@@ -1,4 +1,3 @@
-# TODO: update
 # LCI-Net
 
 Implementation of the IJRR paper: 
@@ -7,12 +6,6 @@ Locally Connected Interrelated Network: A Forward Propagation Primitive
 
 The code implements the LCI-Net module embedded in VIN and QMDP-net architectures.
 
-
-
-Run configuration for debugging:
-```
-python train.py PATH/qmdpnet-mod/data/grid10/ --logpath PATH/qmdpnet-mod/data/grid10/output-scratch/ --lim_traj_len 10 --epochs 5 --batch_size 5 --K 5
-```
 
 ### Requirements
 
@@ -26,7 +19,6 @@ pip install tensorflow
 pip install numpy scipy pillow
 ```
 
-[TODO: update below]
 ### Train and evaluate networks
 
 ```
@@ -58,6 +50,7 @@ python train.py [input_file] --network_type [network_type] --loadmodel [dir_of_s
 ```
 
 ### Compare LCI-Net networks with original networks
+
 If networks have been trained for both network types (LCI-net and original), a comparison between both types on the same
 set of maps and trajectories can be performed via:
 ```
